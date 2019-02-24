@@ -14,7 +14,6 @@
 	width: 50%;
 	padding-top: 5%;
 }
-
 .space
 {
 	padding-top: 2.5%;
@@ -37,7 +36,8 @@
 }
 .end
 {
-	background: #412942 ; (ultramarine blue)
+	background: #412942 ;
+	position: absolute;
 }
 .intro-text{
 	color: #412942;
@@ -47,5 +47,7 @@
 }
 .head{
 	font-family: 'Roboto', sans-serif;
+}
+.contact-icon{
 
 }
