@@ -36,18 +36,43 @@
 }
 .end
 {
+<<<<<<< HEAD
 	background: #412942 ;
 	position: absolute;
+=======
+	background: #4166f5 ; (ultramarine blue)
+>>>>>>> 61f662b2a3ee912cdf51ef8532594dd746a0c8ef
 }
 .intro-text{
 	color: #412942;
 }
-#REC-pic{
-	margin-bottom: 50px;
+
+.event
+{
+	padding-left: 2.5%;
+	padding-bottom: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
 }
+
+.event-bottom
+{
+	width: 33.33%;
+}
+<<<<<<< HEAD
 .head{
 	font-family: 'Roboto', sans-serif;
 }
 .contact-icon{
+=======
+>>>>>>> 61f662b2a3ee912cdf51ef8532594dd746a0c8ef
 
+.headin
+{
+	padding-top: 3.5%;
+}
+
+.eventbottom1
+{
+	width: 99.99%;
 }
