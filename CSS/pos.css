@@ -37,8 +37,15 @@
 }
 .end
 {
-	background: #4166f5 ; (ultramarine blue)
+	background: #412942 ; (ultramarine blue)
 }
 .intro-text{
 	color: #412942;
+}
+#REC-pic{
+	margin-bottom: 50px;
+}
+.head{
+	font-family: 'Roboto', sans-serif;
+
 }
