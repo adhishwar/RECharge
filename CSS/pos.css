@@ -105,6 +105,16 @@
 	padding-top: 2%;
 
 }
+.team-name{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+.team-desig{
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top: 0px;
+}
 .nav-back a
 {
 	text-decoration: none;
