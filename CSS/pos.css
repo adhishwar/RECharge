@@ -1,6 +1,7 @@
 .navlast
 {
-  background-color:   	#ebfafa; <!-- cyan-->
+  background-color:  transparent;	; <!-- cyan-->
+
 }
 .ham-drop
 {
@@ -10,7 +11,7 @@
 {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;        
 	width: 50%;
 	padding-top: 5%;
 }
@@ -49,6 +50,7 @@
 	padding-right: 2.5%;
 	padding-top: 2.5%;
 }
+
 .event-bottom
 {
 	width: 33.33%;
@@ -60,17 +62,51 @@
 {
 	padding-top: 3.5%;
 }
-.dabba
-{
-	border: solid;
-	border-color: #000000;
-}
+
 .eventbottom1
 {
 	width: 99.99%;
 }
-.sponsor-text
+
+.inf
 {
-	color: #412942;
-	font-style: 
+	bottom: 0;
+	right: 0;
+	position: relative;
+
+}
+
+.tilel
+{
+	opacity: 0.75;
+}
+
+.pit
+{
+	font-family: 'Playfair Display SC', serif;
+}
+
+.pit1
+{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 600 px)
+{
+	img.navi
+	{
+		width: 25%;
+	}
+}
+
+.nav-back
+{
+	padding-top: 2%;
+
+}
+.nav-back a
+{
+	text-decoration: none;
+	color: #ffffff;
 }
