@@ -99,7 +99,16 @@
 		width: 25%;
 	}
 }
-
+#gcal-button{
+	padding: 20px;
+	background: #1a73e8;
+	color: #ffffff;
+}
+#reg-button
+{
+	background: #DC143C;
+	color: #ffffff;
+}
 .nav-back
 {
 	padding-top: 2%;
