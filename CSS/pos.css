@@ -177,6 +177,15 @@ nav > div a.nav-item.nav-link:focus
     border-radius:0;
     transition:background 0.20s linear;
 }
+.contact-info{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 20px;
+}
+.contact-text
+{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
 .head1
 {
 	padding-top: 2.5%;
