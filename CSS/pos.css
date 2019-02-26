@@ -7,6 +7,26 @@
 {
 	display: inline-block;
 }
+#gcal-button{	
+ 	padding: 20px;	
+	background: #1a73e8;	
+	color: #ffffff;	
+}	
+#reg-button	
+{	
+	background: #DC143C;	
+	color: #ffffff;	
+}
+.team-name{	
+	margin-bottom: 0px;	
+	padding-bottom: 0px;	
+	border-bottom: 0px;	
+}	
+.team-desig{	
+	margin-top: 0px;	
+	padding-top: 0px;	
+	border-top: 0px;	
+}
 .center 
 {
 	display: block;
