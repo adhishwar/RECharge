@@ -200,3 +200,24 @@ nav > div a.nav-item.nav-link.active:after
 	font-family: 'Roboto Slab', serif;
 	color: #000000;
 }
+
+.fontclass
+{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.navi
+{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+}
+
+.rules
+{
+	font-family: 'Arvo', serif;
+}
+
+.derule
+{
+	font-family: 'Hind Siliguri', sans-serif;
+}
