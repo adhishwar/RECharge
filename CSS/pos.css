@@ -12,9 +12,13 @@
 	background: #1a73e8;	
 	color: #ffffff;	
 }	
+.contact-icons
+{
+	padding-top: 10
+}
 #reg-button	
 {	
-	background: #FF0000;	
+	background: #28396f;	
 	color: #ffffff;	
 }
 .team-name{	
