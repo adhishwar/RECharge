@@ -12,13 +12,9 @@
 	background: #1a73e8;	
 	color: #ffffff;	
 }	
-.contact-icons
-{
-	padding-top: 10
-}
 #reg-button	
 {	
-	background: #28396f;	
+	background: #fbc02d;	
 	color: #ffffff;	
 }
 .team-name{	
@@ -186,4 +182,15 @@ nav > div a.nav-item.nav-link.active:after
 {
 	padding-top: 2.5%;
 	padding-bottom: 3.5%;
+}
+
+.bt
+{
+	padding-right: 5%;
+	padding-bottom: 2.5%;
+}
+
+.st
+{
+	padding-top: 2.5%;
 }
