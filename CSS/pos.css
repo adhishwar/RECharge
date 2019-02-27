@@ -168,15 +168,7 @@ nav > div a.nav-item.nav-link.active:after
     padding:30px 25px;
 }
 
-nav > div a.nav-item.nav-link:hover,
-nav > div a.nav-item.nav-link:focus
-{
-  border: none;
-    background:	#00FF00;
-    color:#fff;
-    border-radius:0;
-    transition:background 0.20s linear;
-}
+
 .contact-info{
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 20px;
