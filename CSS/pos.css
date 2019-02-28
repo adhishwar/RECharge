@@ -7,7 +7,8 @@
 {
 	display: inline-block;
 }
-#gcal-button{	
+#gcal-button
+{	
  	padding: 20px;	
 	background: #1a73e8;	
 	color: #ffffff;	
@@ -17,15 +18,21 @@
 	background: #fbc02d;	
 	color: #ffffff;	
 }
-.team-name{	
+.team-name
+{	
 	margin-bottom: 0px;	
 	padding-bottom: 0px;	
 	border-bottom: 0px;	
 }	
-.team-desig{	
+.team-desig
+{	
 	margin-top: 0px;	
 	padding-top: 0px;	
 	border-top: 0px;	
+}
+.bottom-back-btn
+{
+	padding-top: 2.5%;
 }
 .center 
 {
@@ -40,14 +47,12 @@
 	padding-top: 2.5%;
 	font-size: 100%;
 }
-
 .social a
 {
 	color: #C5B358; (vegas gold)
 	padding-right: 3%;
 	padding-left: 3%;
 }
-
 .social
 {
 	padding-top: 0.5%;
@@ -60,10 +65,10 @@
 {
 	background: #412942 ;
 }
-.intro-text{
+.intro-text
+{
 	color: #412942;
 }
-
 .event
 {
 	padding-left: 2.5%;
@@ -71,7 +76,6 @@
 	padding-right: 2.5%;
 	padding-top: 2.5%;
 }
-
 .event-bottom
 {
 	width: 33.33%;
@@ -83,36 +87,29 @@
 {
 	padding-top: 3.5%;
 }
-
 .eventbottom1
 {
 	width: 99.99%;
 }
-
 .inf
 {
 	bottom: 0;
 	right: 0;
 	position: relative;
-
 }
-
 .tilel
 {
 	opacity: 0.75;
 }
-
 .pit
 {
 	font-family: 'Playfair Display SC', serif;
 }
-
 .pit1
 {
 	font-family: 'Playfair Display SC', serif;
 	font-size: 1.75rem;
 }
-
 @media only screen and (max-width: 600 px)
 {
 	img.navi
@@ -120,7 +117,6 @@
 		width: 25%;
 	}
 }
-
 .nav-back
 {
 	padding-top: 2%;
@@ -131,8 +127,6 @@
 	text-decoration: none;
 	color: #ffffff;
 }
-
-
 nav > .nav.nav-tabs{
 
   border: none;
@@ -150,7 +144,6 @@ nav > div a.nav-item.nav-link.active
     background:#272e38;
     border-radius:0;
 }
-
 nav > div a.nav-item.nav-link.active:after
  {
   content: "";
@@ -168,8 +161,6 @@ nav > div a.nav-item.nav-link.active:after
     border-bottom:5px solid #e74c3c;
     padding:30px 25px;
 }
-
-
 .contact-info{
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 20px;
@@ -184,53 +175,43 @@ nav > div a.nav-item.nav-link.active:after
 	padding-top: 2.5%;
 	padding-bottom: 3.5%;
 }
-
 .bt
 {
-	padding-right: 5%;
+	padding-right: 1%;
 	padding-bottom: 2.5%;
 }
-
 .st
 {
 	padding-top: 2.5%;
 }
-
 .desc
 {
 	font-family: 'Roboto Slab', serif;
 	color: #000000;
 }
-
 .fontclass
 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
-
 .navi
 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 20px;
 }
-
 .rules
 {
 	font-family: 'Arvo', serif;
 	padding-left: 15%;
 }
-
 .derule
 {
 	font-family: 'Hind Siliguri', sans-serif;
 	padding-left: 15%;
-
 }
-
 .descfoot
 {
 	padding-left: 15%;
 }
-
 .footnav
 {
 	text-decoration: none;
@@ -238,7 +219,6 @@ nav > div a.nav-item.nav-link.active:after
 	color: #ffffff;
 	padding-bottom: 2.5%;
 }
-
 .footnav a
 {
 	color: #ffffff;
