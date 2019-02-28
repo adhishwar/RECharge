@@ -38,6 +38,7 @@
 .space
 {
 	padding-top: 2.5%;
+	font-size: 100%;
 }
 
 .social a
@@ -49,7 +50,7 @@
 
 .social
 {
-	padding-top: 2.5%;
+	padding-top: 0.5%;
 }
 .fa:hover 
 {
@@ -215,9 +216,30 @@ nav > div a.nav-item.nav-link.active:after
 .rules
 {
 	font-family: 'Arvo', serif;
+	padding-left: 15%;
 }
 
 .derule
 {
 	font-family: 'Hind Siliguri', sans-serif;
+	padding-left: 15%;
+
+}
+
+.descfoot
+{
+	padding-left: 15%;
+}
+
+.footnav
+{
+	text-decoration: none;
+	padding-top: 1.5%;
+	color: #ffffff;
+	padding-bottom: 2.5%;
+}
+
+.footnav a
+{
+	color: #ffffff;
 }
