@@ -232,6 +232,9 @@ nav > div a.nav-item.nav-link.active:after
 {
 	height: 40%;
 }
+.sponsor-intro{
+	padding-top: 2%;
+}
 .carouse
 {
 	padding-left: 2.5%;
