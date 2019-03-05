@@ -26,13 +26,23 @@
       background-repeat: no-repeat;
       background-position: center center;
     }
-    @media(min-width: 350)
+    /* @media(max-width: 350)
     {
       body
       {
-        background-image: url("Images/mobileland.png");
+        background-image: url("Images/mobileland.png")  !important;
       }
-    }
+    } */
+    @media only screen and (max-width: 450px) {
+  body {
+    background-image:url("Images/mobileland.png") !important;
+  }
+  .main{
+    width:200px;
+  }
+
+}
+
     .pol
     {
       width: 250px;
@@ -41,7 +51,7 @@
       rgba(0, 0, 0, 0.19);
       text-align: center;
     }
-
+  
   </style>
 <!--Navbar-->
 <nav class="navbar navbar-light navbar-1 white navlast">
@@ -83,42 +93,41 @@
 <!--/.Navbar-->
 
 <div class="container-fluid"> 
-  <h3 class="text-center sponsor-intro-text">TEAM RECHARGE WOULD LIKE TO THANK IT'S SPONSORS</h3>  
+  <h3 class="text-center sponsor-intro-text">TEAM RECHARGE'19 WOULD LIKE TO THANK IT'S SPONSORS</h3>  
   <div class="center" id="title-sponsor"> 
     <h4 class="text-center">Title Sponsor</h4>  
-    <img src="Images/sponsers/NEXA.png" alt="Title Sponsor" class="center sponsor-img"> <br>
+    <img src="Images/sponsers/NEXA.png" alt="Title Sponsor" class="center sponsor-img main"> <br>
   </div>  
   <br>  
   <div class="center" id="title-sponsor"> 
     <h4 class="text-center">Associate Sponsor</h4>  
-    <img src="Images/sponsers/shriram.png" alt="Associate Sponsor" class="center  sponsor-img"> <br>
+    <img src="Images/sponsers/shriram.png" alt="Associate Sponsor" class="center  sponsor-img main"> <br>
   </div> 
-  <div class="center" id="title-sponsor"> 
+  <div class="center" id="title-sponsor ">  
     <h4 class="text-center">Fashion Sponsor</h4>  
-    <img src="Images/sponsers/naturals.png" alt="Fashion Sponsor" class="center  sponsor-img"> <br>
+    <img src="Images/sponsers/naturals.png" alt="Fashion Sponsor" class="center  sponsor-img main"> <br>
   </div> 
   <div class="center" id="title-sponsor"> 
     <h4 class="text-center">Gift Sponsor</h4>  
-    <img src="Images/sponsers/zebronics.png" alt="Gift Sponsor" class="center sponsor-img"> <br>
-  </div> 
+    <img src="Images/sponsers/zebronics.png" alt="Gift Sponsor" class="center sponsor-img main"> </div> 
   <div class="center" id="title-sponsor"> 
     <h4 class="text-center">Gold Sponsor</h4>  
-    <img src="Images/sponsers/Manya.png" alt="Gold Sponsor" class="center sponsor-img"> <br>
+    <img src="Images/sponsers/idp.jpg" alt="Gold Sponsor" class="center sponsor-img main"> <br>
   </div>
 <div class="container-fluid row text-center" style="padding-top: 5%;" id="sponsor-line"> 
-    <div class="col-3"> 
+    <div class="col-md-3"> 
       <img src="Images/sponsers/Manya.png" alt="Silver Sponsor" class="center sponsor-img">  
       <h5 class="center">Silver Sponsor</h5> 
     </div>  
-    <div class="col-3"> 
-      <img src="Images/sponsers/DCS.png" alt="Silver Sponsor" class="center sponsor-img">  
+    <div class="col-md-3"> 
+      <img src="Images/sponsers/dcs.png" alt="Silver Sponsor" class="center sponsor-img">  
       <h5 class="center">Silver Sponsor</h5> 
     </div>  
-    <div class="col-3"> 
+    <div class="col-md-3"> 
       <img src="Images/sponsers/gate.jpg" alt="Silver Sponsor" class="center sponsor-img">  
       <h5 class="center">Silver Sponsor</h5> 
     </div>
-    <div class="col-3"> 
+    <div class="col-md-3"> 
       <img src="Images/sponsers/aecc.png" alt="Silver Sponsor" class="center sponsor-img">  
       <h5 class="center">Silver Sponsor</h5> 
     </div>    
