@@ -68,6 +68,11 @@
 	height:140px;
 	
 }
+.sponsor-intro-text
+{
+	color: #412942;
+	padding-top: 3%;	
+}
 .intro-text
 {
 	color: #412942;
@@ -200,6 +205,11 @@ nav > div a.nav-item.nav-link.active:after
 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 20px;
+}
+.sponsor-img
+{
+	padding-top: 0;
+	border: solid black 1px;
 }
 .rules
 {
