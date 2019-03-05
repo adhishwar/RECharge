@@ -63,7 +63,10 @@
 }
 .end
 {
+	/*margin-top: 10px;*/
 	background: #412942 ;
+	height:140px;
+	
 }
 .intro-text
 {
