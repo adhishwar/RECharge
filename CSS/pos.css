@@ -203,6 +203,8 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-img-silver
 {
+	border: solid black;
+	border-width: thin;
 	padding-right: 1%;
 	padding-left: 1%;
 }
@@ -213,8 +215,11 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-img
 {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	border: solid black;
+	border-width: thin;
 }
 .rules
 {
@@ -253,6 +258,7 @@ nav > div a.nav-item.nav-link.active:after
 .sponsor-text{
 	color: #412942;
 	padding-right: 10%;
+	margin-right: 20%;
 }
 .carouse
 {
