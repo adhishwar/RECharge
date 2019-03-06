@@ -178,6 +178,10 @@ nav > div a.nav-item.nav-link.active:after
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 }
+.sponsor-page
+{
+	width: 100%;
+}
 .head1
 {
 	padding-top: 2.5%;
@@ -217,9 +221,14 @@ nav > div a.nav-item.nav-link.active:after
 {
 	margin-top: 1%;
 	margin-bottom: 1%;
-	margin-left: 10%;
+	margin-left: 1%;
 	border: solid black;
 	border-width: thin;
+}
+.foot
+{
+	padding-left: 0;
+	padding-right: 0;
 }
 .rules
 {
@@ -257,8 +266,9 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-text{
 	color: #412942;
-	padding-right: 10%;
-	margin-right: 20%;
+	padding-right: 1%;
+	margin-right: 2%;
+	margin-left: 10%;
 }
 .carouse
 {
