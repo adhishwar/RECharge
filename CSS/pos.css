@@ -201,6 +201,11 @@ nav > div a.nav-item.nav-link.active:after
 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
+.sponsor-img-silver
+{
+	padding-right: 1%;
+	padding-left: 1%;
+}
 .navi
 {
 	font-family: 'Fjalla One', sans-serif;
@@ -208,8 +213,8 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-img
 {
-	padding-top: 0;
-	border: solid black 1px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 .rules
 {
@@ -247,6 +252,7 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-text{
 	color: #412942;
+	padding-right: 10%;
 }
 .carouse
 {
