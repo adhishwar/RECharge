@@ -27,6 +27,27 @@
   background-repeat: no-repeat;
   background-position: center center;
     }
+   .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  
+}
+.fill{
+  width: 100px;
+  height: 100px;
+}
+.fill1{
+  width: 120px;
+  height: 120px;
+}
+.grid-item {
+  
+  
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+}
 
     @media (min-width: 320px) and (max-width: 480px)
     {
@@ -80,48 +101,41 @@
 </nav>
 <!--/.Navbar-->
 
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
 	<h3 class="text-center sponsor-intro-text">Team Recharge'19 would like to thank its sponsors.</h3>
-	<div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Title Sponsor</h4>  
-	    <img src="Images/sponsers/NEXA.png" alt="Title Sponsor" class="center sponsor-img main">
-	    <br>
-  	</div>  
-  	<div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Associate Sponsor</h4>  
-	    <img src="Images/sponsers/shriram.png" alt="Associate Sponsor" class="center  sponsor-img main"> 
-	    <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Fashion Sponsor</h4>  
-	    <img src="Images/sponsers/naturals.png" alt="Fashion Sponsor" class="center sponsor-img main"> 
-	    <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Gift Sponsor</h4>  
-    <img src="Images/sponsers/zebronics.png" alt="Gift Sponsor" class="center sponsor-img main"> 
-  </div>  
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Gold Sponsor</h4>  
-    <img src="Images/sponsers/idp.png" alt="Gold Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/manya.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/dcs.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/aecc.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/gate.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
+	
+
+<div class="grid-container">
+  <div class="grid-item"></div>
+  <div class="grid-item"><h4 class="text-center">Title Sponsor</h4>  
+      <img src="Images/sponsers/NEXA.png" alt="Title Sponsor" class=" sponsor-img main fill1"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"><h4 class="text-center">Associate Sponsor</h4>  
+      <img src="Images/sponsers/shriram.png" alt="Associate Sponsor" class="  sponsor-img main fill"> </div>
+
+  <div class="grid-item"><h4 class="text-center">Fashion Sponsor</h4>  
+      <img src="Images/sponsers/naturals.png" alt="Fashion Sponsor" class=" sponsor-img main fill"> </div>
+
+  <div class="grid-item"><h4 class="">Gift Sponsor</h4>  
+    <img src="Images/sponsers/zebronics.png" alt="Gift Sponsor" class=" sponsor-img main fill"> </div>
+
+  <div class="grid-item"><h4 class="">Gold Sponsor</h4>  
+    <img src="Images/sponsers/idp.png" alt="Gold Sponsor" class=" sponsor-img main fill"> <br></div>
+
+  <div class="grid-item"><h4 class="">Silver Sponsor</h4>  
+    <img src="Images/sponsers/manya.png" alt="Silver Sponsor" class=" sponsor-img main fill"> <br></div>  
+
+  <div class="grid-item"><h4 class="">Silver Sponsor</h4>  
+    <img src="Images/sponsers/dcs.png" alt="Silver Sponsor" class=" sponsor-img main fill"> <br></div>
+
+  <div class="grid-item"><h4 class="text-center">Silver Sponsor</h4>  
+    <img src="Images/sponsers/aecc.png" alt="Silver Sponsor" class=" sponsor-img main fill"> <br></div>
+
+  <div class="grid-item"><h4 class="text-center">Silver Sponsor</h4>  
+    <img src="Images/sponsers/gate.png" alt="Silver Sponsor" class=" sponsor-img main fill"> <br></div>  
+
 </div>
+
 
 
 
