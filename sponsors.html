@@ -26,7 +26,9 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+
     }
+    
 
     @media (min-width: 320px) and (max-width: 480px)
     {
@@ -37,11 +39,19 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+
       }
+      .top-of-silver
+      {
+          padding-top: 1%;
+      }
+      .sponsor-text{
+  left: 20%;
+}
     }
   </style>
 
-  <!--Navbar-->
+   <!--Navbar-->
   <nav class="navbar navbar-light navbar-1 white navlast">
 
   <!-- Navbar brand -->
@@ -81,52 +91,50 @@
 <!--/.Navbar-->
 
 <div class="container-fluid">
-	<h3 class="text-center sponsor-intro-text">Team Recharge'19 would like to thank its sponsors.</h3>
-	<div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Title Sponsor</h4>  
-	    <img src="Images/sponsers/NEXA.png" alt="Title Sponsor" class="center sponsor-img main">
-	    <br>
-  	</div>  
-  	<div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Associate Sponsor</h4>  
-	    <img src="Images/sponsers/shriram.png" alt="Associate Sponsor" class="center  sponsor-img main"> 
-	    <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-	    <h4 class="text-center">Fashion Sponsor</h4>  
-	    <img src="Images/sponsers/naturals.png" alt="Fashion Sponsor" class="center sponsor-img main"> 
-	    <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Gift Sponsor</h4>  
-    <img src="Images/sponsers/zebronics.png" alt="Gift Sponsor" class="center sponsor-img main"> 
-  </div>  
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Gold Sponsor</h4>  
-    <img src="Images/sponsers/idp.png" alt="Gold Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/manya.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/dcs.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/aecc.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
-  <div class="center" id="title-sponsor"> 
-    <h4 class="text-center">Silver Sponsor</h4>  
-    <img src="Images/sponsers/gate.png" alt="Silver Sponsor" class="center sponsor-img main"> <br>
-  </div>
+	<center><h3 class="sponsor-intro-text">Team Recharge'19 would like to thank it's sponsors</h3></center>
+	<div class="row">
+		<table class="sponsor-page text-center">
+			<tr>
+				<td><h4 class="sponsor-text">Title Sponsor</h4></td>
+				<td><img src="Images/sponsers/NEXA.png" style="  width: 120px;
+  height: 120px;" alt="Nexa" class="sponsor-img"></td>
+			</tr>
+			<tr>
+				<td><h4 class="sponsor-text">Associate Sponsor</h4></td>
+				<td><img src="Images/sponsers/shriram.png" style="  width: 120px;
+  height: 120px;" class="sponsor-img" alt="Shriram transport finance pvt. ltd."></td>
+			</tr>
+			<tr>
+				<td><h4 class="sponsor-text">Fashion sponsor</h4></td>
+				<td><img src="Images/sponsers/naturals.png" class="sponsor-img" style="  width: 120px;
+  height: 120px;" alt="Naturals"></td>
+			</tr>
+			<tr>
+				<td><h4 class="sponsor-text">Gold Sponsor</h4></td>
+				<td><img src="Images/sponsers/idp.png" style="  width: 120px;
+  height: 120px;" class="sponsor-img" alt="IDP"></td>
+			</tr>
+			<tr>
+				<td><h4 class="sponsor-text">Gift Sponsor</h4></td>
+				<td><img src="Images/sponsers/zebronics.png" style="  width: 120px;
+  height: 120px;" alt="Zebronics" class="sponsor-img"></td>
+			</tr>
+			<tr>
+				<td class="top-of-silver"><h4 class="sponsor-text">Silver Sponsors</h4></td>
+				<td>
+					<img src="Images/sponsers/Manya.png" class="sponsor-img sponsor-img-silver" style="  width: 120px; height: 120px;" alt="Manya">
+					<img src="Images/sponsers/dcs.png" class="sponsor-img sponsor-img-silver" style="  width: 120px; height: 120px;" alt="DCS motors">
+					<img src="Images/sponsers/aecc.png" class="sponsor-img sponsor-img-silver" style="  width: 120px; height: 120px;" alt="AECC global">
+					<img src="Images/sponsers/gate.png" class="sponsor-img sponsor-img-silver" style="  width: 120px; height: 120px;" alt="Gate Forum">
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
 
 
-
-<br>
-<div class="container-fluid">  
+<!-- Footer -->
+<div class="container-fluid foot">  
 <footer class="end">
   <div class="container-fluid">
     <p class="text-center footnav">  <a href="Index.html"> HOME </a> | 
@@ -141,6 +149,8 @@
    </p>
 </footer>
 </div>
+<!-- /Footer -->
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
