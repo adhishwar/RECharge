@@ -266,9 +266,11 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-text{
 	color: #412942;
+	position: relative;
 	padding-right: 1%;
 	margin-right: 2%;
 	margin-left: 10%;
+	left: 45%;
 }
 .carouse
 {
