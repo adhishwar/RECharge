@@ -178,6 +178,10 @@ nav > div a.nav-item.nav-link.active:after
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 }
+.sponsor-page
+{
+	width: 100%;
+}
 .head1
 {
 	padding-top: 2.5%;
@@ -201,6 +205,13 @@ nav > div a.nav-item.nav-link.active:after
 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
+.sponsor-img-silver
+{
+	border: solid black;
+	border-width: thin;
+	padding-right: 1%;
+	padding-left: 1%;
+}
 .navi
 {
 	font-family: 'Fjalla One', sans-serif;
@@ -208,8 +219,16 @@ nav > div a.nav-item.nav-link.active:after
 }
 .sponsor-img
 {
-	padding-top: 0;
-	border: solid black 1px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	border: solid black;
+	border-width: thin;
+}
+.foot
+{
+	padding-left: 0;
+	padding-right: 0;
 }
 .rules
 {
@@ -245,8 +264,11 @@ nav > div a.nav-item.nav-link.active:after
 {
 	height: 40%;
 }
-.sponsor-intro{
-	padding-top: 2%;
+.sponsor-text{
+	color: #412942;
+	padding-right: 1%;
+	margin-right: 2%;
+	margin-left: 10%;
 }
 .carouse
 {
